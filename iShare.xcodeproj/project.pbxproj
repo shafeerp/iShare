@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E48CC1E688FA984C36290B4 /* Pods_iShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9130B1DC25AEB5E30791FE /* Pods_iShare.framework */; };
 		B8BC0B4822857C5900B7DD43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B4722857C5900B7DD43 /* AppDelegate.swift */; };
-		B8BC0B4A22857C5900B7DD43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B4922857C5900B7DD43 /* ViewController.swift */; };
 		B8BC0B4D22857C5900B7DD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BC0B4B22857C5900B7DD43 /* Main.storyboard */; };
 		B8BC0B4F22857C5B00B7DD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BC0B4E22857C5B00B7DD43 /* Assets.xcassets */; };
 		B8BC0B5222857C5B00B7DD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BC0B5022857C5B00B7DD43 /* LaunchScreen.storyboard */; };
+		B8BC0B5B22857E1C00B7DD43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B5A22857E1C00B7DD43 /* Constants.swift */; };
+		B8BC0B5E2286FBE200B7DD43 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B5D2286FBE200B7DD43 /* Locations.swift */; };
+		B8BC0B602287C83F00B7DD43 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B5F2287C83F00B7DD43 /* CommonMethods.swift */; };
+		B8BC0B662288137200B7DD43 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B652288137200B7DD43 /* MapController.swift */; };
+		B8BC0B69228817A000B7DD43 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B68228817A000B7DD43 /* APIRequest.swift */; };
+		B8BC0B6B228817B200B7DD43 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B6A228817B200B7DD43 /* APIClient.swift */; };
+		B8BC0B6D2288192400B7DD43 /* DirectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B6C2288192400B7DD43 /* DirectionRequest.swift */; };
+		B8BC0B6F22886AC500B7DD43 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC0B6E22886AC500B7DD43 /* Directions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C9130B1DC25AEB5E30791FE /* Pods_iShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5610C7D9A9363140AB8B03FE /* Pods-iShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iShare/Pods-iShare.debug.xcconfig"; sourceTree = "<group>"; };
 		B8BC0B4422857C5900B7DD43 /* iShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BC0B4722857C5900B7DD43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8BC0B4922857C5900B7DD43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8BC0B4C22857C5900B7DD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8BC0B4E22857C5B00B7DD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8BC0B5122857C5B00B7DD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8BC0B5322857C5B00B7DD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BC0B5A22857E1C00B7DD43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8BC0B5D2286FBE200B7DD43 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		B8BC0B5F2287C83F00B7DD43 /* CommonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		B8BC0B652288137200B7DD43 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		B8BC0B68228817A000B7DD43 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		B8BC0B6A228817B200B7DD43 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B8BC0B6C2288192400B7DD43 /* DirectionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionRequest.swift; sourceTree = "<group>"; };
+		B8BC0B6E22886AC500B7DD43 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		F157ACCD42F6BF922216AACD /* Pods-iShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-iShare/Pods-iShare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E48CC1E688FA984C36290B4 /* Pods_iShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A79495849ADA718BFE32D7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C9130B1DC25AEB5E30791FE /* Pods_iShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8BC0B3B22857C5900B7DD43 = {
 			isa = PBXGroup;
 			children = (
 				B8BC0B4622857C5900B7DD43 /* iShare */,
 				B8BC0B4522857C5900B7DD43 /* Products */,
+				C2616008E2084D31DBF94453 /* Pods */,
+				A79495849ADA718BFE32D7E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,62 @@
 		B8BC0B4622857C5900B7DD43 /* iShare */ = {
 			isa = PBXGroup;
 			children = (
+				B8BC0B672288178200B7DD43 /* Networking */,
+				B8BC0B62228812C600B7DD43 /* Controller */,
+				B8BC0B5C2286FBBB00B7DD43 /* Model */,
+				B8BC0B5922857E0D00B7DD43 /* Util */,
 				B8BC0B4722857C5900B7DD43 /* AppDelegate.swift */,
-				B8BC0B4922857C5900B7DD43 /* ViewController.swift */,
 				B8BC0B4B22857C5900B7DD43 /* Main.storyboard */,
 				B8BC0B4E22857C5B00B7DD43 /* Assets.xcassets */,
 				B8BC0B5022857C5B00B7DD43 /* LaunchScreen.storyboard */,
 				B8BC0B5322857C5B00B7DD43 /* Info.plist */,
 			);
 			path = iShare;
+			sourceTree = "<group>";
+		};
+		B8BC0B5922857E0D00B7DD43 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B8BC0B5A22857E1C00B7DD43 /* Constants.swift */,
+				B8BC0B5F2287C83F00B7DD43 /* CommonMethods.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B8BC0B5C2286FBBB00B7DD43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8BC0B5D2286FBE200B7DD43 /* Locations.swift */,
+				B8BC0B6E22886AC500B7DD43 /* Directions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8BC0B62228812C600B7DD43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8BC0B652288137200B7DD43 /* MapController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8BC0B672288178200B7DD43 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B8BC0B68228817A000B7DD43 /* APIRequest.swift */,
+				B8BC0B6A228817B200B7DD43 /* APIClient.swift */,
+				B8BC0B6C2288192400B7DD43 /* DirectionRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C2616008E2084D31DBF94453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5610C7D9A9363140AB8B03FE /* Pods-iShare.debug.xcconfig */,
+				F157ACCD42F6BF922216AACD /* Pods-iShare.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8BC0B5622857C5B00B7DD43 /* Build configuration list for PBXNativeTarget "iShare" */;
 			buildPhases = (
+				473B8981907CABC0CF17568C /* [CP] Check Pods Manifest.lock */,
 				B8BC0B4022857C5900B7DD43 /* Sources */,
 				B8BC0B4122857C5900B7DD43 /* Frameworks */,
 				B8BC0B4222857C5900B7DD43 /* Resources */,
+				87BEBC1C0EA5E346BFF361FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +209,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		473B8981907CABC0CF17568C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BEBC1C0EA5E346BFF361FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iShare/Pods-iShare-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iShare/Pods-iShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8BC0B4022857C5900B7DD43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BC0B4A22857C5900B7DD43 /* ViewController.swift in Sources */,
 				B8BC0B4822857C5900B7DD43 /* AppDelegate.swift in Sources */,
+				B8BC0B6B228817B200B7DD43 /* APIClient.swift in Sources */,
+				B8BC0B5E2286FBE200B7DD43 /* Locations.swift in Sources */,
+				B8BC0B6D2288192400B7DD43 /* DirectionRequest.swift in Sources */,
+				B8BC0B5B22857E1C00B7DD43 /* Constants.swift in Sources */,
+				B8BC0B662288137200B7DD43 /* MapController.swift in Sources */,
+				B8BC0B69228817A000B7DD43 /* APIRequest.swift in Sources */,
+				B8BC0B6F22886AC500B7DD43 /* Directions.swift in Sources */,
+				B8BC0B602287C83F00B7DD43 /* CommonMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,15 +415,17 @@
 		};
 		B8BC0B5722857C5B00B7DD43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5610C7D9A9363140AB8B03FE /* Pods-iShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VRQ7JD8LN;
 				INFOPLIST_FILE = iShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shafeer.iShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ishare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,15 +434,17 @@
 		};
 		B8BC0B5822857C5B00B7DD43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F157ACCD42F6BF922216AACD /* Pods-iShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VRQ7JD8LN;
 				INFOPLIST_FILE = iShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = shafeer.iShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ishare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

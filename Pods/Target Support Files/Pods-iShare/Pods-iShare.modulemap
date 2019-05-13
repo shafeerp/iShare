@@ -1,0 +1,6 @@
+framework module Pods_iShare {
+  umbrella header "Pods-iShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
